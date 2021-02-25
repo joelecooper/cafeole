@@ -1,0 +1,37 @@
+body {
+    background-color: #f6d1ba;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+    border:black 3px solid;
+    background-color: #5d7ec0;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    display: inline-block;
+    border:black 2px solid;
+    background-color: rgb(245, 225, 195);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
