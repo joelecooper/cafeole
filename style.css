@@ -2,6 +2,11 @@ body {
     background-color: #f6d1ba;
 }
 
+head {
+    background: blue;
+
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;

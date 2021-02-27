@@ -28,3 +28,28 @@ function getStarbucks(){
     document.write('<h1>' + 'You are wrong! There are no good Starbucks drinks. Check out our menu for real coffee')
     }
 }
+
+function coffeeTime(){
+    // guess how much coffee you need
+    // Random number generates every time
+    let correctAnswer = Math.floor(Math.random() * 100) + 1
+    console.log(correctAnswer);
+
+    let guesses = 8
+    
+    for(let i = 0; i < guesses; i++){
+        let userAnswer = prompt('How many cups of coffee do I need today?');
+        while(userAnswer < 1 || userAnswer > 100){
+            userAnswer = prompt('Wow maybe not that much. Try again.')
+        }
+        if(userAnswer == correctAnswer){
+            alert('Yeah, we feel that too.');
+            break;
+        }else if(userAnswer > correctAnswer){
+            alert('Dang that is a lot! I think you need less. Try again')
+        }else if(userAnswer < correctAnswer){
+            alert('Those are rookie numbers. You gotta bump those numbers up. Try again')
+        }
+    }
+}
+    //Guessing generator basic code from lesson 8.
